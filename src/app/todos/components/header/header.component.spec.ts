@@ -34,5 +34,6 @@ describe('FooterComponent', () => {
       new KeyboardEvent('keyup', { key: 'Enter' })
     );
     expect(todosService.addTodo).toHaveBeenCalledWith('foo');
+    expect(component.text).toEqual('');
   });
 });
