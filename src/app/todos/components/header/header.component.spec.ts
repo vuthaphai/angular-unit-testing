@@ -4,7 +4,7 @@ import { TodosService } from '../../services/todos.service';
 import { HeaderComponent } from './header.component';
 import { By } from '@angular/platform-browser';
 
-describe('FooterComponent', () => {
+describe('HeaderComponent', () => {
   let component: HeaderComponent;
   let fixture: ComponentFixture<HeaderComponent>;
   let todosService: TodosService;
